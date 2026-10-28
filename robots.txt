@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://reagedesigner.kamus.com.br/sitemap.xml
