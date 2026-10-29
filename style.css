@@ -19,6 +19,7 @@
 .feed .meta time{display:block}
 @media(max-width:700px){
  .hero{padding-left:42px;padding-right:42px}
+ .detail-hero .meta{flex-direction:column;align-items:center;gap:3px}
  .feed{padding-left:40px;padding-right:40px}
  .detail{padding-left:40px;padding-right:40px}
  footer{padding-left:44px;padding-right:44px}
