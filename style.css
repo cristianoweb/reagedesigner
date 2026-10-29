@@ -8,3 +8,18 @@
 @media(max-width:700px){.hero{min-height:280px;padding:52px 22px}.hero h1{letter-spacing:-1px}.feed{padding:32px 20px 44px}.feed-head{display:block}.count{display:block;margin-top:6px}.card-link{grid-template-columns:1fr;gap:18px;padding:26px 0}.card-title{font-size:22px}.summary{-webkit-line-clamp:4}.thumb{width:100%}.detail-hero{padding-bottom:100px;min-height:410px}.detail{padding:0 20px 44px;margin-top:-56px}.description{font-size:18px}.detail-hero h1{font-size:30px}.detail .media{border-radius:6px}}
 
 
+
+/* Ajustes editoriais de 29/10/2026. */
+.hero h1{color:#fff}
+.feed-head{margin-bottom:30px}
+.feed .card{border-bottom:0}
+.feed .card + .card{margin-top:60px}
+.feed .card-link{padding:0}
+.feed .meta{flex-direction:column;align-items:flex-start;gap:3px}
+.feed .meta time{display:block}
+@media(max-width:700px){
+ .hero{padding-left:42px;padding-right:42px}
+ .feed{padding-left:40px;padding-right:40px}
+ .detail{padding-left:40px;padding-right:40px}
+ footer{padding-left:44px;padding-right:44px}
+}
